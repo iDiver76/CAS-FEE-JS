@@ -7,8 +7,8 @@ function removeUser(id) {
   window.location.replace("list.html");
 }
 
-var users = JSON.parse(localStorage.getItem("users"));
-var userList = "";
+let users = JSON.parse(localStorage.getItem("users"));
+let userList = "";
 // console.log(users);
 if (!users) {
 } else {

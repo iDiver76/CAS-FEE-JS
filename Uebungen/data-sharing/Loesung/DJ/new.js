@@ -1,8 +1,8 @@
 'use strict';
 function send(){
 
-  var users = {};
-  var result = localStorage.getItem("users") ? JSON.parse(localStorage.getItem("users")) : [];
+  let users = {};
+  let result = localStorage.getItem("users") ? JSON.parse(localStorage.getItem("users")) : [];
 
   if ( !document.getElementById("name").value ) {
     alert("no name");
